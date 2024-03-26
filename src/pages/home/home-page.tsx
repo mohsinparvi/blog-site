@@ -1,5 +1,6 @@
 import MainLayout from "../../components/main-layout";
 import Articles from "./container/articles";
+import Cta from "./container/cta";
 import Hero from "./container/hero";
 
 const HomePage = () => {
@@ -8,8 +9,9 @@ const HomePage = () => {
       <div className="container m-6 ">
         <Hero />
         <Articles />
-
-        <h1>Home Page</h1>
+        <div className="flex justify-center items-center my-8">
+          <Cta />
+        </div>
       </div>
     </MainLayout>
   );

@@ -3,8 +3,8 @@ import search from "../../../assets/icons/search.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-4">
-      <div className="space-y-4">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-8 my-14">
+      <div className="space-y-4 w-1/2">
         <h1 className="font-bold text-6xl text-secondary">
           Read the most interesting articles
         </h1>
@@ -25,12 +25,20 @@ const Hero = () => {
             search
           </button>
         </div>
-        <div>
+        <div className="flex items-center gap-4 ">
           <h2>Popular Tags :</h2>
-          <p>design</p>
+          <p className="bg-[#E3EDFC] text-primary text-base font-semibold px-4 py-2 rounded-md capitalize">
+            design
+          </p>
+          <p className="bg-[#E3EDFC] text-primary text-base font-semibold px-4 py-2 rounded-md capitalize">
+            User Experience
+          </p>
+          <p className="bg-[#E3EDFC] text-primary text-base font-semibold px-4 py-2 rounded-md capitalize">
+            User Interfaces
+          </p>
         </div>
       </div>
-      <img src={heroImage} alt="hero image" />
+      <img src={heroImage} alt="hero image" className="w-1/2" />
     </div>
   );
 };
