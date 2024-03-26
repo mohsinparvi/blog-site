@@ -1,6 +1,6 @@
 
-const CTA = () => {
-  return <div>CTA</div>;
+const Cta = () => {
+  return <div>Cta</div>;
 };
 
-export default CTA;
+export default Cta;
