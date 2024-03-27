@@ -1,5 +1,6 @@
 import blogImage from "../../assets/blog/blogImage.png";
-
+// import blogImage01 from "../../assets/blog/blogImage01.png";
+// import blogImage02 from "../../assets/blog/blogImage02.png";
 import userImage from "../../assets/blog/userImage.svg";
 import verifiedIcon from "../../assets/icons/verified.svg";
 
