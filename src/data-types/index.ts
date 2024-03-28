@@ -12,3 +12,8 @@ export type buttonProps = {
   text: string;
   link?: string;
 };
+type Items = {
+  id: number;
+  title: string;
+};
+export type footerItemProps = { text: Items[]; title: string };
