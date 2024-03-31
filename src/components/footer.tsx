@@ -81,7 +81,7 @@ const Footer = () => {
     {
       id: 1,
       title: "Documentation",
-      link: "/docs",
+      link: "/",
     },
     {
       id: 2,
