@@ -132,7 +132,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:flex flex-col items-center justify-center space-y-2">
+        <div className="hidden lg:flex flex-col items-center justify-center space-y-2 py-10">
           <img src={loveIcom} alt="loveIcom" />
           <p className=" text-white text-base font-semibold">
             Copyright © 2023. Crafted with love.
