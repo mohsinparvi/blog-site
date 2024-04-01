@@ -13,9 +13,9 @@ const HomePage = () => {
         <div className="flex justify-center items-center my-8">
           <Cta />
         </div>
-        <div>
-          <SectionThree />
-        </div>
+      </div>
+      <div>
+        <SectionThree />
       </div>
     </MainLayout>
   );
