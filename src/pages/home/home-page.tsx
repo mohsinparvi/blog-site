@@ -2,6 +2,7 @@ import MainLayout from "../../components/main-layout";
 import Articles from "./container/articles";
 import Cta from "./container/cta";
 import Hero from "./container/hero";
+import SectionThree from "./container/section-three";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,9 @@ const HomePage = () => {
         <Articles />
         <div className="flex justify-center items-center my-8">
           <Cta />
+        </div>
+        <div>
+          <SectionThree />
         </div>
       </div>
     </MainLayout>

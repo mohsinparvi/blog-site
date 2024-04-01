@@ -7,7 +7,7 @@ import verifiedIcon from "../../assets/icons/verified.svg";
 const BlogCard = () => {
   return (
     <div>
-      <img src={blogImage} alt="blog Image" />
+      <img src={blogImage} alt="blog Image" className="w-full" />
       <div className="p-3 space-y-2">
         <h1 className="text-xl font-bold text-tertiary">Future of Work</h1>
         <p className="text-sm text-tertiary">
