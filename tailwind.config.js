@@ -8,6 +8,7 @@ export default {
       secondary: "#183B56",
       tertiary: "#0D2436",
       white: "#ffffff",
+      red: "#dc2626",
     },
   },
   plugins: [],
