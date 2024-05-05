@@ -13,8 +13,8 @@ const Signin = () => {
   const [input, setInput] = useState(initialValue);
   const [error, setError] = useState(initialValue);
 
-  const validateValues = (e: any) => {
-    let errors = {} as any;
+  const validateValues = () => {
+    const errors = {} as typeof initialValue;
     if (!input.email) errors.email = "Email is required";
     // if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.email))
     //   errors.email = "Invalid email address is required";
@@ -22,10 +22,10 @@ const Signin = () => {
 
     return errors;
   };
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInput({ ...input, [e.target.name]: e.target.value });
   };
-  const handleFormSubmit = async (e: any) => {
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError(validateValues);
     const config = {
